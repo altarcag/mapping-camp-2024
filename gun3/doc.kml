@@ -346,7 +346,7 @@
 		</Placemark>
 		<Placemark>
 			<name>K60B/60GD</name>
-			<description><![CDATA[<br /><img width="480" src="https://raw.githubusercontent.com/altarcag/paleocurrent-plotter-for-sedimentological-analysis/main/images/jeomuh.png" alt="2024-07-03_10-42-39.JPG"><br />]]></description>
+			<description><![CDATA[<br /><img width="480" src="https://github.com/altarcag/mapping-camp-2024/blob/main/gun3/files/inc_2024-07-03_10-42-39.JPG?raw=true" alt="2024-07-03_10-42-39.JPG"><br />]]></description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -356,7 +356,7 @@
 			</Style>
 			<ExtendedData>
 				<Data name="wptPhotos">
-					<value>files/inc_2024-07-03_10-42-39.JPG</value>
+					<value>https://github.com/altarcag/mapping-camp-2024/blob/main/gun3/files/inc_2024-07-03_10-42-39.JPG?raw=true</value>
 				</Data>
 			</ExtendedData>
 			<Point>
