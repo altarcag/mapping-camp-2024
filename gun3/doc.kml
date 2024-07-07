@@ -286,7 +286,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Blok, kalsirüdit olabilir, şelf-hendek</name>
-			<description><![CDATA[<br /><img width="480" src="https://github.com/altarcag/mapping-camp-2024/blob/main/gun3/files/inc_2024-07-03_11-06-57.JPG?raw=true" alt="2024-07-03_11-06-57.JPG"><br />]]></description>
+			<description><![CDATA[<br /><img width="480" src="https://raw.githubusercontent.com/altarcag/mapping-camp-2024/main/gun3/files/inc_2024-07-03_11-06-57.JPG" alt="2024-07-03_11-06-57.JPG"><br />]]></description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -296,7 +296,7 @@
 			</Style>
 			<ExtendedData>
 				<Data name="wptPhotos">
-					<value>https://github.com/altarcag/mapping-camp-2024/blob/main/gun3/files/inc_2024-07-03_11-06-57.JPG?raw=true</value>
+					<value>https://raw.githubusercontent.com/altarcag/mapping-camp-2024/main/gun3/files/inc_2024-07-03_11-06-57.JPG</value>
 				</Data>
 			</ExtendedData>
 			<Point>
