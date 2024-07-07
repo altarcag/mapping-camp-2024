@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display KMZ Files on Google Maps</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyGHQLpncYwnB6VAaQfmJubl53ecW9iNc"></script>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: { lat: 37.7749, lng: -122.4194 } // Change to your desired center
+        });
+
+        var kmlLayer1 = new google.maps.KmlLayer({
+          url: 'https://raw.githubusercontent.com/altarcag/mapping-camp-2024/main/gun3/doc.kml',
+          map: map
+        });
+
+        var kmlLayer2 = new google.maps.KmlLayer({
+        url: 'https://raw.githubusercontent.com/altarcag/mapping-camp-2024/main/gun4/doc.kml',
+        map: map
+        });
+
+        kmzLayer.setMap(map);
+      }
+    </script>
+    <style>
+      #map {
+        height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body onload="initMap()">
+    <div id="map"></div>
+  </body>
+</html>
