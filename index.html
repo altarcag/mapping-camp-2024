@@ -7,9 +7,10 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
-          center: { lat: 37.7749, lng: -122.4194 } // Change to your desired center
+          center: { lat: 32.5169, lng: 39.5248 },
+          mapTypeId: google.maps.MapTypeId.SATELLITE
         });
-
+        
         var kmlLayer1 = new google.maps.KmlLayer({
           url: 'https://raw.githubusercontent.com/altarcag/mapping-camp-2024/main/gun1/doc.kml',
           map: map
